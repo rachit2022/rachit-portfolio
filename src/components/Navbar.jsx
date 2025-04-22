@@ -11,18 +11,31 @@ const navbar = () => {
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
+          className="hover:bg-white hover:text-purple-950"
           href="https://www.linkedin.com/in/rachit-gupta-54047a236/"
           target="_blank"
         >
           <FaLinkedin />
         </a>
-        <a href="https://github.com/rachit2022" target="_blank">
+        <a
+          className="hover:bg-white hover:text-purple-950"
+          href="https://github.com/rachit2022"
+          target="_blank"
+        >
           <FaGithub />
         </a>
-        <a href="https://x.com/g_rachitraj" target="_blank">
+        <a
+          className="hover:bg-white hover:text-purple-950"
+          href="https://x.com/g_rachitraj"
+          target="_blank"
+        >
           <FaSquareXTwitter />
         </a>
-        <a href="https://www.instagram.com/rachit_raj_gupta/" target="_blank">
+        <a
+          className="hover:bg-white hover:text-purple-950"
+          href="https://www.instagram.com/rachit_raj_gupta/"
+          target="_blank"
+        >
           <FaInstagram />
         </a>
       </div>

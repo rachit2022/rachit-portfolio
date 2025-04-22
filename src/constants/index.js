@@ -11,39 +11,55 @@ export const HERO_CONTENT = `I am in my final year of the Computer Science B-Tec
                 learning and excellence. My strengths lie in logical reasoning and problem-solving. I am eager to learn
                 new technologies and languages to stay adaptable and current in the ever-evolving tech landscape.`;
 
-export const ABOUT_TEXT = `I am in my final year of the Computer Science B-Tech program at Alliance University, specializing in Artificial Intelligence and Machine Learning. 
-As a software developer and aspiring data engineer, Java is my primary language, and I have a strong foundation in programming.
-My strengths include logical reasoning, problem-solving, and a genuine passion for continuous learning.
-I am committed to achieving excellence and staying adaptable in the ever-evolving tech landscape.
-I am always eager to learn new technologies and languages to further expand my skill set.
-I have developed multiple projects using Java, Spring Boot, React, and databases like MySQL, demonstrating my ability to build full-stack applications.
-Additionally, I have hands-on experience with data analytics tools such as Power BI and Python libraries like Pandas and Scikit-learn.
-I am passionate about leveraging technology to solve real-world problems and am excited to contribute to innovative solutions in the field of data engineering.`;
+export const ABOUT_TEXT = `I'm a final-year B.Tech Computer Science student at Alliance University, specializing in AI & ML. With Java as my core language, I build full-stack apps using Spring Boot, React, and MySQL. I'm passionate about data engineering, problem-solving, backend development and constantly learning. I also work with tools like Power BI, Pandas, and Scikit-learn to analyze and solve real-world problems through tech.`;
 
 export const EXPERIENCES = [
   {
     year: "June 2024 - July 2024",
     role: "Machine Learning Intern, Intel-HPC",
     company: "Alliance University, Center of Excellence",
-    description: `During my internship at Intel HPC, I worked on advanced machine learning models, focusing on tools like DAAL, RAAN, Scikit-Learn, and MKL. My primary project was "Apply Linear Classification Model for Stroke Prediction," where I developed a model to predict stroke likelihood based on health and demographic data. This experience enhanced my understanding of HPC frameworks and large-scale data processing. I collaborated with experts, gaining valuable insights into optimization techniques. The internship strengthened my problem-solving skills and deepened my interest in machine learning and high-performance computing.`,
-    technologies: ["Python", "Machine learning", "Scikit-Learn", "Intel-MKL"],
+    description: `During my internship at Intel HPC, I worked on advanced machine learning models using tools such as DAAL, RAAN, Scikit-Learn, and Intel MKL. My primary project was titled "Apply Linear Classification Model for Stroke Prediction," where I developed a predictive model using health and demographic data. This experience deepened my understanding of high-performance computing frameworks, large-scale data processing, and optimization techniques. Collaborating with domain experts significantly enhanced my problem-solving skills and solidified my interest in machine learning and HPC.`,
+    technologies: ["Python", "Machine Learning", "Scikit-Learn", "Intel-MKL"],
   },
   {
-    year: "Oct 2023 - Nov 2023",
-    role: "Machine Learning Intern",
-    company: "Intern Pe",
-    description: `Developed machine learning models for several applications, including as diabetes prediction, IPL score prediction,
-                  and breast cancer detection. During a remote internship with Intern Pe, I gained hands-on experience in remote collaboration and project
-                  management.`,
-    technologies: ["Python", "Machine Learning", "Scikit-Learn", "Kaggle"],
+    year: "Oct 2024 - Apr 2024",
+    role: "Full Stack Intern",
+    company: "Anugraha Exceed Private Limited",
+    description: `Contributed to the development of dynamic, event-based forms for Indigo Airlines using HTML, CSS, JavaScript, and Java. Integrated SQL Developer for efficient database management and utilized JSON objects to enable adaptive form behavior. Actively collaborated in a team setting, participating in biweekly updates and ensuring continuous delivery and improvement of functionalities across form-driven applications.`,
+    technologies: [
+      "Java",
+      "Spring",
+      "Spring MVC",
+      "Spring Boot",
+      "Spring Framework",
+      "Microservices",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "jQuery",
+      "Oracle Database",
+    ],
   },
   {
-    year: "Sept 2023 - Oct 2023",
-    role: "Machine Learning Intern",
-    company: "Bharat Intern",
-    description: `Designed a reliable machine learning model for predicting property prices, showcasing expertise in regression
-        approaches. Successfully managed duties and deadlines in a remote work situation, exhibiting great communication skills.`,
-    technologies: ["Python", "Machine Learning", "Scikit-Learn", "Kaggle"],
+    year: "Apr 2024 - Present",
+    role: "Full Stack Developer",
+    company: "Anugraha Exceed Private Limited",
+    description: `Promoted to Full Stack Developer after a successful internship. Continued development of form-driven applications for Indigo Airlines with added responsibilities in backend architecture and performance optimization. Enhanced user interaction by refining front-end components and improved data flow between services using Microservices architecture. Maintained active communication within the team for effective sprint planning and delivery.`,
+    technologies: [
+      "Java",
+      "Spring",
+      "Spring MVC",
+      "Spring Boot",
+      "Spring Framework",
+      "Microservices",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "jQuery",
+      "Oracle Database",
+    ],
   },
 ];
 
@@ -114,8 +130,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address:
-    "VBHC Vaibhava Apartment Block 28-105, Chandapura-Anekal road, Bangalore",
+  address: "Electronic City Phase II, Bangalore, India",
   phoneNo: "+91-8318868858",
   email: "rachitrajgupta2020@gmail.com",
 };
